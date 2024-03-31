@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country Data</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search for a country...">
+      <button onclick="searchCountry()"><b>Search</b></button>
+    </div>
+    <div id="image-container">
+        <img src="image/1.jpg" alt="">
+    </div>
+    <div id="countryData"></div>
+    <div class="flag"></div>
+    <div class="text-container"></div>
+    <div id="weatherIconContainer"></div>
+    <div id="weatherDetails" class="weather-details"></div>
+    
+    
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Country Data</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

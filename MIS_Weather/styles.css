@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  nav ul li a:hover {
+    color: #66ff00;
+  }
+  
+  main {
+    padding: 20px;
+    justify-items: center;
+  }
+  
+  .search-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .search-container input[type="text"] {
+    display: flex;
+    width: 300px;
+    padding: 8px; 
+    font-size: 16px;
+    justify-content: center;
+  }
+  .search-container input[type="text"]:hover,
+  .search-container input[type="text"]:hover {
+    border-color: #7eb1b4;
+    background-color: #7eb1b4;
+  }
+  .search-container button {
+    display: flex;
+    background-color: #cf1212; 
+    color: white;
+    border: none;
+    padding: 3px 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 38px;
+    width: 60px;
+    text-align: center;
+    line-height: 30px; 
+  }
+  
+  .search-container button:hover {
+    background-color: #45a059;
+  }
+  #countryData {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  #image-container {
+    display: flex;
+    justify-self: auto;
+    justify-content: center;
+    width:auto;
+    height: auto;
+  }
+  
+  .country-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .country-card button {
+    margin-top: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  /* CSS for weather details */
+#weatherDetails {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 10px; 
+  background-color: #57d35d;
+  text-align: center;
+}
+
+#weatherDetails p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+#weatherIconContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; 
+}
+
+.clear-background {
+  background-image: url('clear-background.jpg');
+}
+
+.clouds-background {
+  background-image: url('clouds-background.jpg');
+}
+
+.rain-background {
+  background-image: url('rain-background.jpg');
+}
+
+.default-background {
+  background-color: #4faed3;
+}
+
+
+/* Style for country card */
+.country-card {
+  display: flexbox;
+  grid-template-columns: 100px 1fr;
+  align-items: center; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  background: #ffffff;
+}
+.flag img {
+  width: 50%; 
+  display: block;
+  margin: 0 auto;
+}
+.text {
+  padding-left: 10px;
+  white-space: pre-line;
+}
+.country-name {
+  font-size: 34px;
+  font-weight: bold;
+  text-align: center;
+}
+.country-detail {
+  font-size: 22px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.more-details-btn {
+  font-size: 16px;
+  padding: 5px 10px;
+  background-color: #da1919;
+  color: #fff;
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  display: block;
+  margin: 0 auto;
+}
+
+.more-details-btn:hover {
+  background-color: #1dd41d;
+}
